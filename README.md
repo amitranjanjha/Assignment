@@ -7,7 +7,8 @@
 
 <img width="270" height="600" alt="Screenshot_20251027_105051" src="https://github.com/user-attachments/assets/fa927024-2ec7-424e-a71e-b5dc226566e9" />
 <img width="270" height="600" alt="Screenshot_20251027_104921" src="https://github.com/user-attachments/assets/39fcc882-0c81-4483-ac60-c83d3496b1d0" />
-
+## Screen recording
+[![Watch the demo](https://img.youtube.com/vi/j2u67nBoRto/0.jpg)](https://www.youtube.com/watch?v=j2u67nBoRto)
 
 
 ## App Architecture: Key Components and Data Flow
