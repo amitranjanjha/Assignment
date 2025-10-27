@@ -44,6 +44,81 @@ Understanding the data flow illustrates how different components interact to del
     6. Data Flow Back: Data flows back up the chain, potentially undergoing transformations at each layer to fit the needs of the higher layers.
     7. ViewModel Update: The ViewModel updates its state with the received data.
     8. UI Update: The UI observes the ViewModel's state changes and updates accordingly to display the new information to the user.
+## Folder Structure   
+.
+├── app
+│   ├── build.gradle.kts
+│   ├── proguard-rules.pro
+│   └── src
+│       ├── androidTest
+│       │   └── java
+│       ├── main
+│       │   ├── AndroidManifest.xml
+│       │   ├── java
+│       │   └── res
+│       └── test
+│           └── java
+├── build.gradle.kts
+├── data
+│   ├── build.gradle.kts
+│   ├── consumer-rules.pro
+│   ├── proguard-rules.pro
+│   └── src
+│       ├── androidTest
+│       │   └── java
+│       ├── main
+│       │   ├── AndroidManifest.xml
+│       │   └── java
+│       └── test
+│           └── java
+├── domain
+│   ├── build.gradle.kts
+│   ├── consumer-rules.pro
+│   ├── proguard-rules.pro
+│   └── src
+│       ├── androidTest
+│       │   └── java
+│       ├── main
+│       │   ├── AndroidManifest.xml
+│       │   └── java
+│       └── test
+│           └── java
+├── gradle
+│   ├── libs.versions.toml
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── local.properties
+├── presentation
+│   ├── build.gradle.kts
+│   ├── consumer-rules.pro
+│   ├── proguard-rules.pro
+│   └── src
+│       ├── androidTest
+│       │   └── java
+│       ├── main
+│       │   ├── AndroidManifest.xml
+│       │   ├── java
+│       │   └── res
+│       └── test
+│           └── java
+├── README.md
+├── settings.gradle.kts
+└── utils
+    ├── build.gradle.kts
+    ├── consumer-rules.pro
+    ├── proguard-rules.pro
+    └── src
+        ├── androidTest
+        │   └── java
+        ├── main
+        │   ├── AndroidManifest.xml
+        │   └── java
+        └── test
+            └── java
 
 ## TODO
 Add more test cases especially Android instrumentation tests.  
