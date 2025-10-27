@@ -1,7 +1,8 @@
 # User Listing App -Sample App
 ![architecture ](https://github.com/user-attachments/assets/f51d23ed-780e-41c0-a101-61f39541cd48)
 ## App Screen
-<img width="600" height="1200" alt="Screenshot_20251027_093659" src="https://github.com/user-attachments/assets/9e3e81a2-f49c-4234-9628-1247cee1688f" /> 
+<img width="540" height="1200" alt="Screenshot_20251027_105244" src="https://github.com/user-attachments/assets/1d82ed81-1c1c-4c56-9bbf-fb8835d155f3" /><img width="540" height="1200" alt="Screenshot_20251027_105051" src="https://github.com/user-attachments/assets/fa927024-2ec7-424e-a71e-b5dc226566e9" />
+<img width="540" height="1200" alt="Screenshot_20251027_104921" src="https://github.com/user-attachments/assets/39fcc882-0c81-4483-ac60-c83d3496b1d0" />
 
 ## App Architecture: Key Components and Data Flow
 
