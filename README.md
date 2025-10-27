@@ -19,18 +19,19 @@ Description below outlines the key components and data flow within this applicat
 ## Key Components and Their Roles
 ### Presentation Layer (View):
 
-    - Compose Screens (e.g., UserListScreen)
-      Role: Responsible for displaying data to the user and capturing all user interactions.
-    - ViewModel
-     Role: Manages UI-related data and state, processes user actions, and communicates with the domain Layer.
+     **UserListScreen (Composable)** Displays list of users using Jetpack Compose and handles UI interactions.
+     **ViewModel** Manages UI-related data and state, processes user actions, and communicates with the domain Layer.
+     **DispatcherProvider** Provides coroutine dispatchers (IO, Main, Default) to decouple threading from logic.
+
 ### Domain Layer:
-    - model
-    - repository
-    - usecase
+    **User** Represents a business model containing user information (id, name, email, etc.).
+    **UserListRepository** Defines the contract for fetching user-related data, abstracting data sources.
+    **GetUserListUseCase** Encapsulates the business logic to retrieve the user list from the repository.
     
 ### Data Layer :
-    NetworkService
-    Role: Handles all API calls to the external news service.
+    **NetworkService** Retrofit interface defining API endpoints for user data.
+    **UserListRepositoryImpl** Concrete implementation of UserListRepository, fetching users from NetworkService.
+    **ApiModule** Hilt module providing network dependencies like Retrofit and API interfaces.
         
 ### Util:
     General Item
