@@ -87,6 +87,7 @@ fun UserDetailsScreen(user:User) {
         UserInfoText(text = user.email)
         UserInfoText(text = user.phone)
         UserInfoText(text = user.company)
+        UserInfoText(text = user.address+" "+ user.country+" "+user.zip)
     }
 
 
